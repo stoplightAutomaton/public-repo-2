@@ -1,0 +1,15 @@
+{
+  "title": "Package",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "hasWine": {
+      "type": "boolean"
+    },
+    "hasCheese": {
+      "type": "boolean"
+    }
+  }
+}
