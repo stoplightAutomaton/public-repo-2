@@ -1,0 +1,11 @@
+title: ModelX
+type: object
+x-tags:
+  - ecks
+properties:
+  id:
+    type: string
+  name:
+    $ref: ./modely.v1.yaml
+x-examples: {}
+description: ''

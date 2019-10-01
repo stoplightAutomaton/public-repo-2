@@ -13,12 +13,28 @@ paths:
         required: true
     get:
       summary: get chz
-      tags: &ref_0
+      tags:
         - cheeses
-      responses: {}
+      parameters:
+        - schema:
+            type: string
+          in: header
+          name: Header1
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                thing:
+                  type: string
+                description:
+                  type: string
     post:
       summary: create chz
-      tags: *ref_0
+      tags:
+        - cheeses
       responses: {}
 components:
   schemas: {}

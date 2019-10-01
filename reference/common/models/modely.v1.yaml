@@ -1,0 +1,9 @@
+title: ModelY
+type: object
+x-tags:
+  - why
+properties:
+  id:
+    type: string
+  isSomething:
+    type: boolean
