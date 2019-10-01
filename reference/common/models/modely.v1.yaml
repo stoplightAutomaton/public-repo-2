@@ -4,6 +4,6 @@ x-tags:
   - why
 properties:
   id:
-    type: string
+    $ref: ../../test-api/models/package.v1.json
   isSomething:
     type: boolean
