@@ -13,6 +13,9 @@
     },
     "isStinky": {
       "type": "boolean"
+    },
+    "isMoldy": {
+      "type": "boolean"
     }
   }
 }
