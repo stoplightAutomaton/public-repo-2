@@ -1,0 +1,5 @@
+title: common model again
+type: object
+properties:
+  id:
+    type: string
