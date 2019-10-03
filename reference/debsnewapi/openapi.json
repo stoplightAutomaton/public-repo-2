@@ -26,7 +26,17 @@
           }
         },
         "description": "rsgsgs",
-        "operationId": "1"
+        "operationId": "1",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "breed",
+            "description": "breed of cat"
+          }
+        ]
       },
       "post": {
         "summary": "Send a cat",
@@ -39,7 +49,8 @@
           }
         },
         "description": "srgsgs",
-        "operationId": "2"
+        "operationId": "2",
+        "parameters": []
       },
       "put": {
         "summary": "edit a cat",
