@@ -2,7 +2,11 @@
   "openapi": "3.0.0",
   "info": {
     "title": "DebsNewAPI",
-    "version": "1.0"
+    "version": "1.0",
+    "contact": {
+      "name": "v"
+    },
+    "description": "dfgsdgsdg"
   },
   "servers": [
     {
@@ -10,36 +14,47 @@
     }
   ],
   "paths": {
-    "/cats/{catId}": {
-      "parameters": [
-        {
-          "type": "string",
-          "name": "catId",
-          "in": "path",
-          "required": true
-        }
-      ],
+    "/cats": {
       "get": {
         "summary": "Get a cat",
         "tags": [
           "cats"
         ],
-        "responses": {}
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "description": "rsgsgs",
+        "operationId": "1"
       },
       "post": {
         "summary": "Send a cat",
         "tags": [
           "cats"
         ],
-        "responses": {}
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "description": "srgsgs",
+        "operationId": "2"
       },
       "put": {
         "summary": "edit a cat",
         "tags": [
           "cats"
         ],
-        "responses": {}
-      }
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "description": "sgsgsg",
+        "operationId": "3"
+      },
+      "parameters": []
     }
   }
 }
