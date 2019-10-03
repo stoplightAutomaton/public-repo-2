@@ -1,0 +1,9 @@
+{
+  "title": "nuModel2",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
