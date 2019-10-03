@@ -1,0 +1,12 @@
+{
+  "title": "sing",
+  "type": "object",
+  "x-tags": [
+    "ecks"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
