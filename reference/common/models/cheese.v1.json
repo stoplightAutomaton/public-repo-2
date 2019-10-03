@@ -17,5 +17,10 @@
     "isMoldy": {
       "type": "boolean"
     }
-  }
+  },
+  "x-tags": [
+    "article",
+    "endpoint",
+    "model"
+  ]
 }
