@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "DebsNewAPI",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/cats/{catId}": {
+      "parameters": [
+        {
+          "type": "string",
+          "name": "catId",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Get a cat",
+        "tags": [
+          "cats"
+        ],
+        "responses": {}
+      },
+      "post": {
+        "summary": "Send a cat",
+        "tags": [
+          "cats"
+        ],
+        "responses": {}
+      },
+      "put": {
+        "summary": "edit a cat",
+        "tags": [
+          "cats"
+        ],
+        "responses": {}
+      }
+    }
+  }
+}
