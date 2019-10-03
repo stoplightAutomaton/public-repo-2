@@ -36,5 +36,15 @@ paths:
       tags:
         - cheeses
       responses: {}
+    delete:
+      summary: ''
+      responses:
+        '200':
+          description: OK
+    put:
+      summary: ''
+      responses:
+        '200':
+          description: OK
 components:
   schemas: {}
