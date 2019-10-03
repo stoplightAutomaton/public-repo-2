@@ -7,3 +7,5 @@ properties:
     $ref: ../../test-api/models/package.v1.json
   isSomething:
     type: boolean
+  yeah:
+    type: boolean
