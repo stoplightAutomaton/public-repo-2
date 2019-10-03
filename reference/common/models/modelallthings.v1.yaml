@@ -1,0 +1,8 @@
+title: ModelAllThings
+type: object
+x-tags:
+  - article
+  - model
+properties:
+  id:
+    type: string
