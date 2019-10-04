@@ -5,7 +5,7 @@
     "ecks"
   ],
   "properties": {
-    "id": {
+    "name": {
       "type": "string"
     }
   }
