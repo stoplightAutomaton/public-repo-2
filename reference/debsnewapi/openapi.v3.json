@@ -75,6 +75,29 @@
         },
         "description": "delete a cat"
       }
+    },
+    "/shoes/{shoeId)": {
+      "get": {
+        "summary": "get shooz",
+        "tags": [
+          "shoes"
+        ],
+        "responses": {}
+      },
+      "post": {
+        "summary": "make shooz",
+        "tags": [
+          "shoes"
+        ],
+        "responses": {}
+      },
+      "put": {
+        "summary": "change shooz",
+        "tags": [
+          "shoes"
+        ],
+        "responses": {}
+      }
     }
   }
 }
