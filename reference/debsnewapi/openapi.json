@@ -65,7 +65,16 @@
         "description": "sgsgsg",
         "operationId": "3"
       },
-      "parameters": []
+      "parameters": [],
+      "delete": {
+        "summary": "",
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "description": "delete a cat"
+      }
     }
   }
 }
