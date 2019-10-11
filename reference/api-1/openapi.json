@@ -9,5 +9,44 @@
       "url": "http://localhost:3000"
     }
   ],
-  "paths": {}
+  "paths": {
+    "/pizzas/{pizzaId}": {
+      "parameters": [
+        {
+          "type": "string",
+          "name": "pizzaId",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Order a pizza",
+        "tags": [
+          "pizza"
+        ],
+        "responses": {}
+      },
+      "post": {
+        "summary": "Cook a pizza",
+        "tags": [
+          "pizza"
+        ],
+        "responses": {}
+      },
+      "put": {
+        "summary": "Change your order",
+        "tags": [
+          "pizza"
+        ],
+        "responses": {}
+      },
+      "delete": {
+        "summary": "Eat a pizza",
+        "tags": [
+          "pizza"
+        ],
+        "responses": {}
+      }
+    }
+  }
 }
