@@ -16,7 +16,7 @@
           "type": "string",
           "name": "pizzaId",
           "in": "path",
-          "required": true
+          "required": false
         }
       ],
       "get": {
