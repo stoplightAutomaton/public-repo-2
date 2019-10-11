@@ -1,0 +1,9 @@
+openapi: '3.0.0'
+info:
+  title: fridayBranchAPI_oa3_yaml
+  version: '1.0'
+servers:
+- url: http://localhost:3000
+paths: {}
+components:
+  schemas: {}
