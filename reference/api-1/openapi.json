@@ -10,13 +10,15 @@
     }
   ],
   "paths": {
-    "/pizzas/{pizzaId}": {
+    "/orders/{orderId}": {
       "parameters": [
         {
-          "type": "string",
-          "name": "pizzaId",
+          "schema": {
+            "type": "string"
+          },
+          "name": "orderId",
           "in": "path",
-          "required": false
+          "required": true
         }
       ],
       "get": {
@@ -27,7 +29,7 @@
         "responses": {}
       },
       "post": {
-        "summary": "Cook a pizza",
+        "summary": "Deliver a pizza",
         "tags": [
           "pizza"
         ],
@@ -41,7 +43,7 @@
         "responses": {}
       },
       "delete": {
-        "summary": "Eat a pizza",
+        "summary": "Cancel pizza order",
         "tags": [
           "pizza"
         ],
