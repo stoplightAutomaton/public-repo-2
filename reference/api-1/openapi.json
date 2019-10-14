@@ -22,7 +22,7 @@
         }
       ],
       "get": {
-        "summary": "Order a pizza",
+        "summary": "Pick up a pizza",
         "tags": [
           "pizza"
         ],
