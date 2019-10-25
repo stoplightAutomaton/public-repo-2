@@ -1,5 +1,0 @@
-title: mocdel
-type: object
-properties:
-  id:
-    type: string
